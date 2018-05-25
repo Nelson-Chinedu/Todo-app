@@ -7,4 +7,4 @@ which uses current date and localStorage for client side.
 * Todo can be deleted
 * Todos can be cleared
 
-[click here to open on browser](www.google.com 'click') 
+[click here to open on browser](https://nelson-chinedu.github.io/Todo-app/ 'click') 
