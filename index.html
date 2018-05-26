@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <haed>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="A todo app">
+        <meta name="keywords" content="HTML,CSS,JavaScript,todo-app,todo,app">
+        <meta name="author" content="Nelson Chinedu">
+        <title>Todo app</title>
+        <link rel="stylesheet" href="style.css">
+    </haed>
+    <body id='mainContainer'>
+        <header>
+            <h1 class="caption">MY TODO APP</h1>
+        </header>
+        <section id='main'>
+            <form name="" class="myForm">
+                <label for="title" class='lblCaption'>Title</label>
+                <div id='container'>
+                  <input type="text" id="userText" class="userText" placeholder="Enter title..." autocomplete="off">
+                </div>
+                <button type='submit' id="btnAdd" class="btn btn-primary">Add</button>
+                <button type='submit' id="btnClear" class="btn btn-info">Clear Items</button>
+            </form>
+            <ul id="todoList"></ul>
+        </section>
+        <footer>copyright &copy; <span id='dateFooter'></span> - All rights reserved</footer>
+        <script src="script.js"></script>
+    </body>
+</html>

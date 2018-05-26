@@ -1,0 +1,218 @@
+/*global style*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    color:#000;
+    text-align: center;
+    font-size: 16px;
+    font-family: arial;
+}
+/*mobile style*/
+@media only screen and (max-width:480px){
+    header .caption{
+        margin: 1em 0;
+        text-align: center;
+    }
+.myForm{
+    background: tomato;
+    color: #fff;
+    padding: 15px 0px;
+    margin: 0px;
+  }
+  label{
+      color: #fff;
+      font-size: 25px;
+      padding: 20px;
+      width:100%;
+  }
+  .userText{
+      width:90%;
+      padding: 12px 10px;
+      margin: 10px auto;
+      border: 0px solid black;
+      outline: 0px solid black;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -o-border-radius: 5px;
+      border-radius: 5px;
+  }
+  .btn{
+      background: transparent;
+      width: 94%;
+      border:1px solid #fff;
+      padding: 12px 28px;
+      margin: 15px 0 8px;
+      font-size: 20px;
+      outline: none;
+      border: 0;
+
+  }
+  .btn-info{
+      background: #71d2d2;
+  }
+  .btn-primary{
+      background:#7ecc7e; 
+  }
+  #todoList{
+     text-align: left;
+      font-family: cursive,arial;
+      width: 100%;
+      font-size: 16px;
+      margin-top: 40px;
+  }
+  li{
+     padding: 10px;
+     list-style-type: none;
+      margin:10px 0px;
+      overflow: hidden;
+  }
+  li::before{
+      content:url(http://icons.iconarchive.com/icons/paomedia/small-n-flat/16/sign-check-icon.png); 
+      padding-right: 10px;
+  }
+  li:nth-child(odd){
+      background: #f2f2f2;
+  }
+  .dt{
+      position:absolute;
+      right: 50px;
+      padding-top:5px;
+      color: black;
+      font-size: 14px;
+      font-family: helvetica;
+      font-style: italic;
+      padding-left:10px; 
+  }
+  .close{
+       position:absolute;
+      right: 18px;
+      color:red ;
+      font-weight:bolder;
+      font-size: 30px;
+      font-family: arial;
+      cursor: pointer;
+  }
+  footer{
+      margin: 5em 0px 1.5em; 
+  }
+}
+
+/*desktop styles*/
+@media only screen and (min-width:481px){
+    body{
+        box-sizing:border-box ;
+    }
+    header .caption{
+        margin: 1em 0;
+        text-align: center;
+    }
+    .myForm{
+    background: tomato;
+    color: #fff;
+    line-height: 1.8em;
+    padding: 15px 12px;
+   
+    }
+    label{
+      width: 100%;
+      font-size: 25px;
+  }
+  #container{
+      width: 50%;
+      margin: 0px auto;
+  }
+  .userText{
+     width: 100%;
+     padding: 14px 12px;
+     border: none;
+     outline: none;
+     font-size: 18px;
+     -moz-border-radius: 5px;
+     -webkit-border-radius: 5px;
+     -o-border-radius: 5px;
+     border-radius: 5px;
+  }
+  .btn{
+      background: transparent;
+      border:0px;
+      outline: 0px;
+      cursor: pointer;
+      font-size:18px;
+      font-family: arial;
+      margin: 10px 10px;
+      -moz-border-radius: 5px;
+     -webkit-border-radius: 5px;
+     -o-border-radius: 5px;
+     border-radius: 5px;
+  }
+  .btn-info{
+      background: #71d2d2;
+      padding: 12px 28px;
+  }
+  .btn-primary{
+      background:#7ecc7e; 
+      padding: 12px 28px;
+  }
+  .btn-info:hover{
+      outline: 1px solid #fff;
+      background: transparent;
+      transition: .6s all;
+  }
+  .btn-primary:hover{
+      outline: 1px solid #fff;
+      color: white;
+      background:transparent; 
+      transition: .6s all;
+ }
+  #todoList{
+      text-align: left;
+      font-family: arial;
+      width: 100%;
+      font-size: 20px;
+      margin-top: 40px;
+  }
+  li{
+      list-style-type:none;
+      padding:10px 10px 10px 15px;
+      margin:10px 0px;
+      color: #000;
+      font-family:cursive,arial ;
+      overflow: hidden;
+  }
+  li::before{
+      content:url(http://icons.iconarchive.com/icons/paomedia/small-n-flat/16/sign-check-icon.png); 
+      padding-right: 10px;
+  }
+  li:nth-child(odd){
+      background: #f2f2f2;
+  }
+  .dt{
+      position:absolute;
+      right: 80px;
+      padding-top:5px;
+      color: black;
+      font-size: 16px;
+      font-family: helvetica;
+      font-style: italic;
+      padding-left:10px; 
+  }
+  .close{
+      position:absolute;
+      right: 25px;
+      color:#f70707 ;
+      font-weight:bolder;
+      font-size: 28px;
+      font-family: arial;
+      cursor: pointer;
+  }
+  .close:hover{
+      color:#b73131;
+  }
+  footer{
+      margin: 5em 0px 1.5em; 
+  }
+}
